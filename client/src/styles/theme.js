@@ -19,6 +19,13 @@ export const darkTheme = {
   STATUS_YELLOW: "#FBA94C",
   STATUS_GREEN: "#04D361",
 
+  WHITE: "#FFFFFF",
+
   POPPINS: "'Poppins', sans-serif",
   ROBOTO: "'Roboto', sans-serif",
+
+  screenM: "40em",
+  screenG: "48em",
+  screenGG: "64em",
+  screenXG: "80em",
 };

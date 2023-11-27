@@ -9,8 +9,9 @@ export default createGlobalStyle`
   }
 
   body {
-    background: ${(props) => props.theme.BACKGROUND};
-    font-family: ${(props) => props.theme.POPPINS};
+    background: ${({ theme }) => theme.BACKGROUND};
+    color: ${({ theme }) => theme.WHITE};
+    font-family: ${({ theme }) => theme.POPPINS};
     -webkit-font-smoothing: antialiased;
   }
 
