@@ -6,11 +6,12 @@ import { Button } from "../../components/Button";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-export const SignIn = () => {
+export const SignUp = () => {
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  function handleSignIn() {}
+  function handleSignUp() {}
 
   return (
     <Container>
@@ -20,7 +21,14 @@ export const SignIn = () => {
       />
 
       <div>
-        <h2>Login</h2>
+        <h2>SignUp</h2>
+
+        <Label>Name</Label>
+        <Input
+          placeholder="Dwight K. Schrute"
+          type="text"
+          onChange={(e) => setName(e.target.value)}
+        />
 
         <Label>Email</Label>
         <Input
@@ -36,9 +44,9 @@ export const SignIn = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
 
-        <Button title="Login" onClick={handleSignIn} />
+        <Button title="SignUp" onClick={handleSignUp} />
 
-        <Link to="/signup">Signup for an account</Link>
+        <Link to="/">Already have an account?</Link>
       </div>
     </Container>
   );
