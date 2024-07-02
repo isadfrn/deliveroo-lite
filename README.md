@@ -1,12 +1,12 @@
-# Deliveroo
+# Ordering System
 
-![Languages used](https://img.shields.io/github/languages/count/isadfrn/deliveroo?style=flat-square)
-![Repository size](https://img.shields.io/github/repo-size/isadfrn/deliveroo?style=flat-square)
-![Last commit](https://img.shields.io/github/last-commit/isadfrn/deliveroo?style=flat-square)
+![Languages used](https://img.shields.io/github/languages/count/isadfrn/ordering-system?style=flat-square)
+![Repository size](https://img.shields.io/github/repo-size/isadfrn/ordering-system?style=flat-square)
+![Last commit](https://img.shields.io/github/last-commit/isadfrn/ordering-system?style=flat-square)
 
 ## About
 
-This is Deliveroo (a clone, not the real one) and this one is for controlling locally a restaurant, not for delivery.
+This repository contains the source code for a comprehensive restaurant menu and ordering system. The system allows customers to view the restaurant's menu, place orders, and track the progress of their orders in real-time. It's designed to be user-friendly for both customers and restaurant staff, with a focus on efficient order management and customer satisfaction.
 
 ## Run
 
