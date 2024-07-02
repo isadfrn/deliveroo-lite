@@ -6,7 +6,7 @@
 
 ## About
 
-This repository contains the source code for a comprehensive restaurant menu and ordering system. The system allows customers to view the restaurant's menu, place orders, and track the progress of their orders in real-time. It's designed to be user-friendly for both customers and restaurant staff, with a focus on efficient order management and customer satisfaction.
+This repository contains a comprehensive restaurant menu and ordering system. The system allows customers to view the restaurant's menu, place orders, and track the progress of their orders in real-time.
 
 ## Run
 
